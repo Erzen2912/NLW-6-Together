@@ -13,6 +13,7 @@ import { useRoom } from '../hooks/useRoom';
 import { database } from '../services/firebase';
 
 import '../styles/room.scss';
+import { useTheme } from '../hooks/useTheme';
 
 
 type RoomParams = {
@@ -20,6 +21,7 @@ type RoomParams = {
 }
 
 export function Room() {
+  const { theme , toggleTheme } = useTheme();
   const { user } = useAuth();
   const params = useParams<RoomParams>();
   const [newQuestion, setNewQuestion] = useState('');
@@ -65,7 +67,7 @@ export function Room() {
   }
 
   return (
-    <div id="page-room">
+    <div id="page-room" className={theme}>
       <header>
         <div className="content">
           <img src={logoImg} alt="Letmeask" />
@@ -75,6 +77,13 @@ export function Room() {
 
       <main>
         <div className="room-title">
+        <button onClick={toggleTheme} className="btn">
+                  {theme === 'dark' ? (
+                    'Tema Branco'
+                  ) : (
+                    'Tema Preto'
+                  )}
+            </button>
           <h1>Sala {title}</h1>
           { questions.length > 0 && <span>{questions.length} pergunta(s)</span> }
         </div>

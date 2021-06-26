@@ -1,8 +1,17 @@
 #page-room {
+  height:100vh;
+
+  &.dark{
+    background-color:rgba(0, 0, 0, 0.65);
+    color: white;
+
+    }
+
   header {
     padding: 24px;
     border-bottom: 1px solid #e2e2e2;
 
+    
     .content {
       max-width: 1120px;
       margin: 0 auto;
@@ -28,6 +37,26 @@
   main {
     max-width: 800px;
     margin: 0 auto;
+
+    .btn{
+      position: absolute;
+      top: 10%;
+      left: 1.5%;
+      margin-top: 16px;
+      height: 50px;
+      border-radius: 8px;
+      font-weight: 500;
+      background: #835afd;
+      color: #FFF;
+      padding: 0 32px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      cursor: pointer;
+      border: 0;
+    }
 
     .room-title {
       margin: 32px 0 24px;

@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Lemeask
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um projeto desenvolvido na sexta NLW se trata de uma aplicação que cria reuniões onde os usúarios podem mandar perguntas e fazer outras interações na aplicação
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/59092579/123521165-6815f600-d68b-11eb-8dce-afcae096e0ee.png)
 
-In the project directory, you can run:
+
+## Tentando levar a aplicação pro próximo nivel
+Tema dark foi uma das coisas que tentei implementar(com sucesso),não ficou muito bonito por que não foquei no desgin e sim ficar funcional,minha segunda vez mexendo com react e estou ainda em baby steps
+
+![image](https://user-images.githubusercontent.com/59092579/123521204-ad3a2800-d68b-11eb-9c2a-d39f202dbf80.png)
+
 
 ### `yarn start`
 
@@ -13,6 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
 
 ### `yarn test`
 

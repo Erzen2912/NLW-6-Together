@@ -1,4 +1,4 @@
-# Lemeask
+# Letmeask
 
 Um projeto desenvolvido na sexta NLW se trata de uma aplicação que cria reuniões onde os usúarios podem mandar perguntas e fazer outras interações na aplicação
 
